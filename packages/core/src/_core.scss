@@ -122,12 +122,12 @@
     }
 
     // resets all xyz variables
-    [xyz], xyz-context {
+    .xyz, xyz-context {
       @include xyz-set-all();
     }
 
     // inherits all xyz variables
-    [xyz~='inherit'] {
+    .xyz-inherit {
       @include xyz-set-all(inherit);
     }
 
